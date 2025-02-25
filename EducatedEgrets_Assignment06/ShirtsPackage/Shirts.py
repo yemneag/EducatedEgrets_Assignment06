@@ -1,3 +1,5 @@
+#Shirts.py
+
 # File Name : EducatedEgrets_Assignment06
 # Student Name: Rithu Aynampudi
 # email: aynampru@mail.uc.edu
@@ -20,7 +22,7 @@ class Shirt:
         @param color String: The color of the shirt
         @param price float: The price of the shirt
         """
-        self._brand = brand
+        self._brand = brand;
         self._size = size
         self._color = color
         self._price = price
