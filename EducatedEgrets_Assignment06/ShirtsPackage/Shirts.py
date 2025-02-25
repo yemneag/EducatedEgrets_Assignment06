@@ -1,4 +1,14 @@
-# Documentation 
+# File Name : EducatedEgrets_Assignment06
+# Student Name: Rithu Aynampudi
+# email: aynampru@mail.uc.edu
+# Assignment Number: Assignment06
+# Due Date: 02/27/2025
+# Course #/Section: IS4010-001
+# Semester/Year: Spring 2025
+# Brief Description of the assignment: This assignment is a group project which models the UC Bookstore
+# Brief Description of what this module does: This module shows us how to create classes and provide properties related to a topic in the real world
+# Citations: W3Schools (https://www.w3schools.com/python/default.asp), realpython(https://realpython.com/)
+
 
 class Shirt:
     def __init__(self, brand: str = "Nike", size: str = "M", color: str = "Red", price: float = 29.99):
