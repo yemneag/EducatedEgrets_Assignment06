@@ -1,6 +1,6 @@
-# books.py
+# book.py
 
-# File Name : books.py
+# File Name : book.py
 # Student Name: Kengo Ishizuka
 # email: ishizuko@mail.uc.edu
 # Assignment Number: Assignment 06
