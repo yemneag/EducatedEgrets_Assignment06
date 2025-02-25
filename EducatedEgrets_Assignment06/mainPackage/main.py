@@ -14,6 +14,7 @@
 # Anything else that's relevant:
 
 from bookPackage.book import *
+from ShirtsPackage.Shirts import *
 
 if __name__ == "__main__":
     # Instantiate a Book object
@@ -24,4 +25,21 @@ if __name__ == "__main__":
     print(book1)
     print(book2)
     #Getter
-    print(f"Book1 is a {book1.get_type()} book with the price of {book1.get_price()} and we have {book1.get_quantity()} in stock.") 
+    print(f"Book1 is a {book1.get_type()} book costing ${book1.get_price()} and we have {book1.get_quantity()} in stock.") 
+    print(f"Book2 is a {book2.get_type()} book costing ${book2.get_price()} and we have {book2.get_quantity()} in stock.") 
+
+    # Updating book properties
+    book1.set_price(28)
+    book1.set_quantity(50)
+    book2.set_price(18)
+    book2.set_quantity(10)
+    # Display update
+    print("The updated book prices are")
+    print(book1)
+    print(book2)
+    # Display book selling functionality
+    book1.sell_books(4)
+    print(book1)
+    book2.sell_books(11) #This shows the exception handler for the sell_books function
+    print(book2)
+    
