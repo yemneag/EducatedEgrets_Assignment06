@@ -31,10 +31,17 @@
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Shirts\Shirts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shirts\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bookPackage\" />
     <Folder Include="mainPackage\" />
+    <Folder Include="Shirts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
