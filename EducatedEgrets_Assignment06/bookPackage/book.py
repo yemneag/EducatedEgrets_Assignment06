@@ -13,7 +13,7 @@
 # Citations: https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/
 
 # Anything else that's relevant:
-
+    
 class Book:
     def __init__(self,type, price, quantity):
         """
