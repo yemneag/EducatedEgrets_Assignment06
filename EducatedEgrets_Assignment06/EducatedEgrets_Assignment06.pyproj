@@ -27,6 +27,12 @@
     <Compile Include="bookPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CupsPackage\Cups.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CupsPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
@@ -40,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bookPackage\" />
+    <Folder Include="CupsPackage\" />
     <Folder Include="mainPackage\" />
     <Folder Include="ShirtsPackage\" />
   </ItemGroup>
