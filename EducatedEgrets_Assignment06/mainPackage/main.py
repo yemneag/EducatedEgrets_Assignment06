@@ -7,9 +7,9 @@
 # Due Date:   02/35/2025
 # Course #/Section:   IS4010-001
 # Semester/Year:   Spring 2025
-# Brief Description of the assignment:  
+# Brief Description of the assignment:  This assignment is to develop and simulate a real world object with peers
 
-# Brief Description of what this module does. 
+# Brief Description of what this module does: This module teaches us to use classes, getters, and setters in a python project
 # Citations: https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/ 
 
 # Anything else that's relevant:
